@@ -2,13 +2,24 @@ const express=require("express");
 const app=express();
 const port=3000;
 
+
+//importing the routers
+const users_router=require("./routes/users");
+const books_router=require("./routes/books");
+
+
 app.use(express.json());
 
 app.get("/",(req, res)=>{
     res.status(200).json({
         message:"Home Page!"
     });
-})
+});
+
+app.use("/users",users_router);
+app.use("/books", books_router);
+
+
 
 // app.all("*",(req, res)=>{
 //     res.status(500).json({

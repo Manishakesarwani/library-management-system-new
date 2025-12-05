@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "title": "The Silent Storm",
     "author": "Riya Menon",
     "genre": "Fiction",
@@ -11,7 +11,7 @@
     "publisher": "BlueLeaf Publications"
   },
   {
-    "id": 2,
+    "id": "2",
     "title": "Whispers of the Night",
     "author": "Ethan Carter",
     "genre": "Thriller",
@@ -22,7 +22,7 @@
     "publisher": "Harper & Co."
   },
   {
-    "id": 3,
+    "id": "3",
     "title": "The Art of Letting Go",
     "author": "Aanya Kapoor",
     "genre": "Self-Help",
@@ -33,7 +33,7 @@
     "publisher": "Sunrise Press"
   },
   {
-    "id": 4,
+    "id": "4",
     "title": "Secrets of the forgotten City",
     "author": "Liam Wright",
     "genre": "Adventure",
@@ -44,7 +44,7 @@
     "publisher": "RiverStone Books"
   },
   {
-    "id": 5,
+    "id": "5",
     "title": "A Thousand Dreams",
     "author": "Meera Shah",
     "genre": "Romance",
@@ -55,7 +55,7 @@
     "publisher": "Pearl House"
   },
   {
-    "id": 6,
+    "id": "6",
     "title": "Echoes of Eternity",
     "author": "Daniel Brown",
     "genre": "Fantasy",
@@ -66,7 +66,7 @@
     "publisher": "Shadow Ink Publishers"
   },
   {
-    "id": 7,
+    "id": "7",
     "title": "Mind Over Chaos",
     "author": "Neha Verma",
     "genre": "Self-Help",
@@ -77,7 +77,7 @@
     "publisher": "MindSpace Media"
   },
   {
-    "id": 8,
+    "id": "8",
     "title": "The Last Kingdom",
     "author": "Oliver Hayes",
     "genre": "Historical Fiction",
@@ -88,7 +88,7 @@
     "publisher": "Legacy Books"
   },
   {
-    "id": 9,
+    "id": "9",
     "title": "Broken Wings",
     "author": "Sara Ali",
     "genre": "Drama",
@@ -99,7 +99,7 @@
     "publisher": "Moonlight Publishers"
   },
   {
-    "id": 10,
+    "id": "10",
     "title": "Beyond the Horizon",
     "author": "Jason Clark",
     "genre": "Adventure",
@@ -110,7 +110,7 @@
     "publisher": "Eagle Publishing"
   },
   {
-    "id": 11,
+    "id": "11",
     "title": "Love in the Rain",
     "author": "Kiara Sethi",
     "genre": "Romance",
@@ -121,7 +121,7 @@
     "publisher": "Rose Garden Books"
   },
   {
-    "id": 12,
+    "id": "12",
     "title": "Parallel Worlds",
     "author": "Nathan Lopez",
     "genre": "Sci-Fi",
@@ -132,7 +132,7 @@
     "publisher": "StarBound Press"
   },
   {
-    "id": 13,
+    "id": "13",
     "title": "The Power Within",
     "author": "Sneha Kulkarni",
     "genre": "Motivation",
@@ -143,7 +143,7 @@
     "publisher": "BrightPath Publishers"
   },
   {
-    "id": 14,
+    "id": "14",
     "title": "Haunted Shadows",
     "author": "Marcus Reed",
     "genre": "Horror",
@@ -154,7 +154,7 @@
     "publisher": "DarkMoon Press"
   },
   {
-    "id": 15,
+    "id": "15",
     "title": "Mystic Falls",
     "author": "Elena Parker",
     "genre": "Fantasy",
@@ -165,7 +165,7 @@
     "publisher": "Crystal Crown Books"
   },
   {
-    "id": 16,
+    "id": "16",
     "title": "Winning the Mind Game",
     "author": "Dr. Kabir Malhotra",
     "genre": "Psychology",
@@ -176,7 +176,7 @@
     "publisher": "Insight Publications"
   },
   {
-    "id": 17,
+    "id": "17",
     "title": "Journey of a Lifetime",
     "author": "Aarav Khurana",
     "genre": "Travel",
@@ -187,7 +187,7 @@
     "publisher": "GlobeTrek Press"
   },
   {
-    "id": 18,
+    "id": "18",
     "title": "Shattered Truths",
     "author": "Emily Watson",
     "genre": "Crime",
@@ -198,7 +198,7 @@
     "publisher": "RedStone Books"
   },
   {
-    "id": 19,
+    "id": "19",
     "title": "The Infinite Loop",
     "author": "Alex Turner",
     "genre": "Sci-Fi",
@@ -209,7 +209,7 @@
     "publisher": "Cosmic Leaf"
   },
   {
-    "id": 20,
+    "id": "20",
     "title": "Garden of Memories",
     "author": "Priya Chawla",
     "genre": "Drama",
@@ -220,7 +220,7 @@
     "publisher": "SpringWind Books"
   },
   {
-    "id": 21,
+    "id": "21",
     "title": "Rise of the Fallen Empire",
     "author": "Henry Adams",
     "genre": "Fantasy",
@@ -231,7 +231,7 @@
     "publisher": "DragonFire Publishers"
   },
   {
-    "id": 22,
+    "id": "22",
     "title": "The Minimalist Mind",
     "author": "Sanya Jain",
     "genre": "Self-Help",
@@ -242,7 +242,7 @@
     "publisher": "Clarity House"
   },
   {
-    "id": 23,
+    "id": "23",
     "title": "Code of Shadows",
     "author": "Ryan Matthews",
     "genre": "Tech Thriller",
@@ -253,7 +253,7 @@
     "publisher": "Binary Press"
   },
   {
-    "id": 24,
+    "id": "24",
     "title": "The Lost Heir",
     "author": "Sophie Turner",
     "genre": "Adventure",
@@ -264,7 +264,7 @@
     "publisher": "Golden Quill"
   },
   {
-    "id": 25,
+    "id": "25",
     "title": "Melodies of the Heart",
     "author": "Ishita Roy",
     "genre": "Romance",
@@ -275,7 +275,7 @@
     "publisher": "Harmony Books"
   },
   {
-    "id": 26,
+    "id": "26",
     "title": "From Zero to Zenith",
     "author": "Arjun Rao",
     "genre": "Motivation",
@@ -286,7 +286,7 @@
     "publisher": "Spark Publications"
   },
   {
-    "id": 27,
+    "id": "27",
     "title": "Voices in the Dark",
     "author": "Haley Morgan",
     "genre": "Horror",
@@ -297,7 +297,7 @@
     "publisher": "NightShade Press"
   },
   {
-    "id": 28,
+    "id": "28",
     "title": "The Quantum Door",
     "author": "Dr. Neil Carter",
     "genre": "Science",
@@ -308,7 +308,7 @@
     "publisher": "Knowledge Tree"
   },
   {
-    "id": 29,
+    "id": "29",
     "title": "Flavours of India",
     "author": "Chef Radhika Singh",
     "genre": "Cooking",
@@ -319,7 +319,7 @@
     "publisher": "Cuisine House"
   },
   {
-    "id": 30,
+    "id": "30",
     "title": "The Last Sunrise",
     "author": "Zara Fernandes",
     "genre": "Drama",
