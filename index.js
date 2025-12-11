@@ -1,4 +1,9 @@
 const express=require("express");
+const dotenv=require("dotenv");
+
+//import data connection file
+const DbConnection=require("./databaseConnection");
+
 const app=express();
 const port=3000;
 
@@ -6,6 +11,9 @@ const port=3000;
 //importing the routers
 const users_router=require("./routes/users");
 const books_router=require("./routes/books");
+
+dotenv.config();
+DbConnection();
 
 
 app.use(express.json());

@@ -7,7 +7,8 @@
     "role": "Admin",
     "isActive": true,
     "address": "Pune, Maharashtra",
-    "registeredAt": "2023-01-14T10:32:00Z"
+    "registeredAt": "2023-01-14T10:32:00Z",
+    "issuedBook":"21"
   },
   {
     "id": "2",
@@ -17,7 +18,8 @@
     "role": "User",
     "isActive": false,
     "address": "Ahmedabad, Gujarat",
-    "registeredAt": "2023-02-19T08:22:10Z"
+    "registeredAt": "2023-02-19T08:22:10Z",
+    "issuedBook":"1"
   },
   {
     "id": "3",
@@ -27,7 +29,8 @@
     "role": "Editor",
     "isActive": true,
     "address": "Bengaluru, Karnataka",
-    "registeredAt": "2022-08-01T17:35:04Z"
+    "registeredAt": "2022-08-01T17:35:04Z",
+    "issuedBook":"30"
   },
   {
     "id": "4",
@@ -37,7 +40,8 @@
     "role": "User",
     "isActive": true,
     "address": "Hyderabad, Telangana",
-    "registeredAt": "2023-05-09T14:40:00Z"
+    "registeredAt": "2023-05-09T14:40:00Z",
+    "issuedBook":"2"
   },
   {
     "id": "5",
@@ -47,7 +51,8 @@
     "role": "Moderator",
     "isActive": false,
     "address": "New Delhi",
-    "registeredAt": "2021-12-22T10:11:45Z"
+    "registeredAt": "2021-12-22T10:11:45Z",
+    "issuedBook":"3"
   },
   {
     "id": "6",
@@ -57,7 +62,8 @@
     "role": "User",
     "isActive": true,
     "address": "Goa",
-    "registeredAt": "2023-03-14T12:20:00Z"
+    "registeredAt": "2023-03-14T12:20:00Z",
+    "issuedBook":"4"
   },
   {
     "id": "7",
@@ -67,7 +73,8 @@
     "role": "Admin",
     "isActive": true,
     "address": "Kochi, Kerala",
-    "registeredAt": "2021-10-10T09:22:30Z"
+    "registeredAt": "2021-10-10T09:22:30Z",
+    "issuedBook":"5"
   },
   {
     "id": "8",
@@ -77,7 +84,8 @@
     "role": "Editor",
     "isActive": true,
     "address": "London, UK",
-    "registeredAt": "2022-06-12T11:05:40Z"
+    "registeredAt": "2022-06-12T11:05:40Z",
+    "issuedBook":"6"
   },
   {
     "id": "9",
@@ -87,7 +95,8 @@
     "role": "User",
     "isActive": false,
     "address": "Lucknow, Uttar Pradesh",
-    "registeredAt": "2023-04-11T10:00:22Z"
+    "registeredAt": "2023-04-11T10:00:22Z",
+    "issuedBook":"11"
   },
   {
     "id": "10",
@@ -97,7 +106,8 @@
     "role": "Moderator",
     "isActive": true,
     "address": "Dubai, UAE",
-    "registeredAt": "2020-12-18T09:55:30Z"
+    "registeredAt": "2020-12-18T09:55:30Z",
+    "issuedBook":"12"
   },
   {
     "id": "11",
@@ -107,7 +117,8 @@
     "role": "User",
     "isActive": true,
     "address": "Kolkata, West Bengal",
-    "registeredAt": "2023-07-15T13:45:00Z"
+    "registeredAt": "2023-07-15T13:45:00Z",
+    "issuedBook":"13"
   },
   {
     "id": "12",
@@ -117,7 +128,8 @@
     "role": "Editor",
     "isActive": true,
     "address": "New York, USA",
-    "registeredAt": "2022-05-20T15:11:00Z"
+    "registeredAt": "2022-05-20T15:11:00Z",
+    "issuedBook":"14"
   },
   {
     "id": "13",
@@ -127,7 +139,8 @@
     "role": "User",
     "isActive": true,
     "address": "Hyderabad, Telangana",
-    "registeredAt": "2024-01-11T11:22:32Z"
+    "registeredAt": "2024-01-11T11:22:32Z",
+    "issuedBook":"15"
   },
   {
     "id": "14",
@@ -137,7 +150,8 @@
     "role": "Moderator",
     "isActive": false,
     "address": "Toronto, Canada",
-    "registeredAt": "2021-04-14T07:30:45Z"
+    "registeredAt": "2021-04-14T07:30:45Z",
+    "issuedBook":"16"
   },
   {
     "id": "15",
@@ -147,7 +161,8 @@
     "role": "User",
     "isActive": true,
     "address": "Vadodara, Gujarat",
-    "registeredAt": "2023-11-09T16:00:00Z"
+    "registeredAt": "2023-11-09T16:00:00Z",
+    "issuedBook":"17"
   },
   {
     "id": "16",
@@ -157,7 +172,8 @@
     "role": "Admin",
     "isActive": true,
     "address": "Sydney, Australia",
-    "registeredAt": "2020-09-10T08:33:22Z"
+    "registeredAt": "2020-09-10T08:33:22Z",
+    "issuedBook":"18"
   },
   {
     "id": "17",
@@ -167,7 +183,8 @@
     "role": "User",
     "isActive": true,
     "address": "Mumbai, Maharashtra",
-    "registeredAt": "2023-09-17T10:25:35Z"
+    "registeredAt": "2023-09-17T10:25:35Z",
+    "issuedBook":"20"
   },
   {
     "id": "18",
@@ -177,7 +194,8 @@
     "role": "Editor",
     "isActive": false,
     "address": "Seoul, South Korea",
-    "registeredAt": "2021-07-12T09:21:11Z"
+    "registeredAt": "2021-07-12T09:21:11Z",
+    "issuedBook":"19"
   },
   {
     "id": "19",
@@ -187,7 +205,8 @@
     "role": "User",
     "isActive": true,
     "address": "Jaipur, Rajasthan",
-    "registeredAt": "2024-02-01T12:50:00Z"
+    "registeredAt": "2024-02-01T12:50:00Z",
+    "issuedBook":"23"
   },
   {
     "id": "20",
@@ -197,7 +216,8 @@
     "role": "Moderator",
     "isActive": true,
     "address": "Wellington, New Zealand",
-    "registeredAt": "2019-12-20T11:45:55Z"
+    "registeredAt": "2019-12-20T11:45:55Z",
+    "issuedBook":"24"
   }
   ,
   {
@@ -208,7 +228,8 @@
     "role": "User",
     "isActive": true,
     "address": "Delhi, India",
-    "registeredAt": "2023-01-22T10:44:00Z"
+    "registeredAt": "2023-01-22T10:44:00Z",
+    "issuedBook":"25"
   },
   {
     "id": "22",
@@ -218,7 +239,8 @@
     "role": "Admin",
     "isActive": false,
     "address": "Texas, USA",
-    "registeredAt": "2020-06-17T06:22:11Z"
+    "registeredAt": "2020-06-17T06:22:11Z",
+    "issuedBook":"26"
   },
   {
     "id": "23",
@@ -228,7 +250,8 @@
     "role": "User",
     "isActive": true,
     "address": "Chennai, Tamil Nadu",
-    "registeredAt": "2023-12-12T15:20:30Z"
+    "registeredAt": "2023-12-12T15:20:30Z",
+    "issuedBook":"27"
   },
   {
     "id": "24",
@@ -238,7 +261,8 @@
     "role": "Editor",
     "isActive": true,
     "address": "California, USA",
-    "registeredAt": "2021-01-09T14:40:10Z"
+    "registeredAt": "2021-01-09T14:40:10Z",
+    "issuedBook":"28"
   },
   {
     "id": "25",
@@ -248,7 +272,8 @@
     "role": "User",
     "isActive": false,
     "address": "Bhopal, MP",
-    "registeredAt": "2022-02-04T09:22:10Z"
+    "registeredAt": "2022-02-04T09:22:10Z",
+    "issuedBook":"13"
   },
   {
     "id": "26",
@@ -258,7 +283,8 @@
     "role": "Moderator",
     "isActive": true,
     "address": "Dublin, Ireland",
-    "registeredAt": "2019-07-18T11:20:00Z"
+    "registeredAt": "2019-07-18T11:20:00Z",
+    "issuedBook":"14"
   },
   {
     "id": "27",
@@ -268,7 +294,8 @@
     "role": "User",
     "isActive": true,
     "address": "Patna, Bihar",
-    "registeredAt": "2023-10-09T09:13:00Z"
+    "registeredAt": "2023-10-09T09:13:00Z",
+    "issuedBook":"15"
   },
   {
     "id": "28",
@@ -278,7 +305,8 @@
     "role": "Admin",
     "isActive": false,
     "address": "Scranton, USA",
-    "registeredAt": "2018-03-14T15:42:00Z"
+    "registeredAt": "2018-03-14T15:42:00Z",
+    "issuedBook":"16"
   },
   {
     "id": "29",
@@ -288,7 +316,8 @@
     "role": "User",
     "isActive": true,
     "address": "Indore, MP",
-    "registeredAt": "2023-02-11T10:30:00Z"
+    "registeredAt": "2023-02-11T10:30:00Z",
+    "issuedBook":"17"
   },
   {
     "id": "30",
@@ -298,7 +327,8 @@
     "role": "Editor",
     "isActive": true,
     "address": "Manchester, UK",
-    "registeredAt": "2020-08-07T11:11:00Z"
+    "registeredAt": "2020-08-07T11:11:00Z",
+    "issuedBook":"18"
   },
   {
     "id": "31",
@@ -308,7 +338,8 @@
     "role": "User",
     "isActive": true,
     "address": "Surat, Gujarat",
-    "registeredAt": "2023-05-20T13:59:00Z"
+    "registeredAt": "2023-05-20T13:59:00Z",
+    "issuedBook":"19"
   },
   {
     "id": "32",
@@ -318,7 +349,8 @@
     "role": "Moderator",
     "isActive": false,
     "address": "Berlin, Germany",
-    "registeredAt": "2019-11-12T12:14:00Z"
+    "registeredAt": "2019-11-12T12:14:00Z",
+    "issuedBook":"20"
   },
   {
     "id": "33",
@@ -328,7 +360,8 @@
     "role": "User",
     "isActive": true,
     "address": "Gurgaon, Haryana",
-    "registeredAt": "2023-09-09T14:20:00Z"
+    "registeredAt": "2023-09-09T14:20:00Z",
+    "issuedBook":"21"
   },
   {
     "id": "34",
@@ -338,7 +371,8 @@
     "role": "Editor",
     "isActive": true,
     "address": "Melbourne, Australia",
-    "registeredAt": "2021-04-06T10:12:00Z"
+    "registeredAt": "2021-04-06T10:12:00Z",
+    "issuedBook":"22"
   },
   {
     "id": "35",
@@ -348,7 +382,8 @@
     "role": "User",
     "isActive": true,
     "address": "Jaipur, Rajasthan",
-    "registeredAt": "2023-06-19T11:18:00Z"
+    "registeredAt": "2023-06-19T11:18:00Z",
+    "issuedBook":"23"
   },
   {
     "id": "36",
@@ -358,7 +393,8 @@
     "role": "User",
     "isActive": false,
     "address": "Glasgow, Scotland",
-    "registeredAt": "2022-02-28T09:33:00Z"
+    "registeredAt": "2022-02-28T09:33:00Z",
+    "issuedBook":"24"
   },
   {
     "id": "37",
@@ -368,7 +404,8 @@
     "role": "Admin",
     "isActive": true,
     "address": "Mumbai, India",
-    "registeredAt": "2021-12-01T11:30:00Z"
+    "registeredAt": "2021-12-01T11:30:00Z",
+    "issuedBook":"25"
   },
   {
     "id": "38",
@@ -378,7 +415,8 @@
     "role": "Editor",
     "isActive": true,
     "address": "Madrid, Spain",
-    "registeredAt": "2020-09-04T13:12:00Z"
+    "registeredAt": "2020-09-04T13:12:00Z",
+    "issuedBook":"26"
   },
   {
     "id": "39",
@@ -388,7 +426,8 @@
     "role": "User",
     "isActive": false,
     "address": "Nagpur, Maharashtra",
-    "registeredAt": "2023-03-15T10:44:00Z"
+    "registeredAt": "2023-03-15T10:44:00Z",
+    "issuedBook":"2"
   },
   {
     "id": "40",
@@ -398,7 +437,8 @@
     "role": "Moderator",
     "isActive": true,
     "address": "Paris, France",
-    "registeredAt": "2019-05-19T15:55:00Z"
+    "registeredAt": "2019-05-19T15:55:00Z",
+    "issuedBook":"3"
   },
   {
     "id": "41",
@@ -408,7 +448,8 @@
     "role": "User",
     "isActive": true,
     "address": "Kolkata, West Bengal",
-    "registeredAt": "2023-09-21T10:10:00Z"
+    "registeredAt": "2023-09-21T10:10:00Z",
+    "issuedBook":"4"
   },
   {
     "id": "42",
@@ -418,7 +459,8 @@
     "role": "Editor",
     "isActive": false,
     "address": "Auckland, New Zealand",
-    "registeredAt": "2021-01-15T11:49:00Z"
+    "registeredAt": "2021-01-15T11:49:00Z",
+    "issuedBook":"5"
   },
   {
     "id": "43",
@@ -428,7 +470,8 @@
     "role": "User",
     "isActive": true,
     "address": "Varanasi, UP",
-    "registeredAt": "2024-02-09T14:11:00Z"
+    "registeredAt": "2024-02-09T14:11:00Z",
+    "issuedBook":"6"
   },
   {
     "id": "44",
@@ -438,7 +481,8 @@
     "role": "Admin",
     "isActive": true,
     "address": "Chicago, USA",
-    "registeredAt": "2018-08-22T09:12:00Z"
+    "registeredAt": "2018-08-22T09:12:00Z",
+    "issuedBook":"7"
   },
   {
     "id": "45",
@@ -448,7 +492,8 @@
     "role": "User",
     "isActive": true,
     "address": "Shimla, Himachal Pradesh",
-    "registeredAt": "2023-10-14T10:11:00Z"
+    "registeredAt": "2023-10-14T10:11:00Z",
+    "issuedBook":"8"
   },
   {
     "id": "46",
@@ -458,7 +503,8 @@
     "role": "Moderator",
     "isActive": false,
     "address": "Oslo, Norway",
-    "registeredAt": "2020-04-12T12:20:00Z"
+    "registeredAt": "2020-04-12T12:20:00Z",
+    "issuedBook":"9"
   },
   {
     "id": "47",
@@ -468,7 +514,8 @@
     "role": "User",
     "isActive": true,
     "address": "Pune, Maharashtra",
-    "registeredAt": "2023-07-16T10:30:00Z"
+    "registeredAt": "2023-07-16T10:30:00Z",
+    "issuedBook":"10"
   },
   {
     "id": "48",
@@ -478,7 +525,8 @@
     "role": "Editor",
     "isActive": true,
     "address": "Boston, USA",
-    "registeredAt": "2021-05-26T09:40:00Z"
+    "registeredAt": "2021-05-26T09:40:00Z",
+    "issuedBook":"11"
   },
   {
     "id": "49",
@@ -488,7 +536,8 @@
     "role": "User",
     "isActive": true,
     "address": "Delhi, India",
-    "registeredAt": "2024-01-05T11:25:00Z"
+    "registeredAt": "2024-01-05T11:25:00Z",
+    "issuedBook":"12"
   },
   {
     "id": "50",
@@ -498,6 +547,7 @@
     "role": "Admin",
     "isActive": false,
     "address": "Florida, USA",
-    "registeredAt": "2018-09-01T14:12:00Z"
+    "registeredAt": "2018-09-01T14:12:00Z",
+    "issuedBook":"13"
   }
 ]
