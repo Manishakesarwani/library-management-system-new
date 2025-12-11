@@ -1,7 +1,8 @@
 const express=require("express");
 const b_router=express.Router();
 const books = require("../data/books.json");
-const users=require("../data/users.json")
+const users=require("../data/users.json");
+const { getAllBooks, getSingleBookById, getAllBookIsInStock, getAllIssuedBooks, createBook, updateBook, deleteBook } = require("../controllers/book-controller");
 
 /**
  * Route: '/books'
@@ -11,13 +12,13 @@ const users=require("../data/users.json")
  * Parameters: none
  */
 
-b_router.get("/",(req, res)=>{
-    res.status(200).json({
-        success: true,
-        booksList: books
-    });
-});
-
+// b_router.get("/",(req, res)=>{
+//     res.status(200).json({
+//         success: true,
+//         booksList: books
+//     });
+// });
+b_router.get("/",getAllBooks);
 /**
  * Route: '/books/stock'
  * method: GET
@@ -26,28 +27,40 @@ b_router.get("/",(req, res)=>{
  * Parameters: NONE
  */
 
-b_router.get("/stock",(req, res)=>{
-    const book_ck=books.map((book)=>{
-        if(book.inStock){
-            return {
-                book
-            };
-        }
-    })
+// b_router.get("/stock",(req, res)=>{
+//     const book_ck=books.map((book)=>{
+//         if(book.inStock){
+//             return {
+//                 book
+//             };
+//         }
+//     })
 
-    if(!book_ck){
-        return res.status(202).json({
-            success: true,
-            message: `No Book is in stock`
-        });
-    }
+//     if(!book_ck){
+//         return res.status(202).json({
+//             success: true,
+//             message: `No Book is in stock`
+//         });
+//     }
 
-        return res.status(200).json({
-            success: true,
-            BookList: book_ck
-        });
+//         return res.status(200).json({
+//             success: true,
+//             BookList: book_ck
+//         });
 
-});
+// });
+
+b_router.get("/stock",getAllBookIsInStock);
+
+/**
+ * Route: '/books/issued'
+ * method: GET
+ * Descriptions: Get all Issued books.
+ * Acess: public
+ * Parameters: None
+ */
+
+b_router.get("/issued", getAllIssuedBooks);
 
 /**
  * Route: '/books/:id'
@@ -57,22 +70,26 @@ b_router.get("/stock",(req, res)=>{
  * Parameters: id
  */
 
-b_router.get("/:id",(req, res)=>{
+// b_router.get("/:id",(req, res)=>{
 
-    const {id}=req.params;
-    const book=books.find((each)=>each.id===id)
+//     const {id}=req.params;
+//     const book=books.find((each)=>each.id===id)
 
-    if(!book){
-        return res.status(404).json({
-            success:false,
-            message: `Book - ${id} not found!`
-        });
-    }
-    res.status(200).json({
-        success:true,
-        data:book
-    });
-});
+//     if(!book){
+//         return res.status(404).json({
+//             success:false,
+//             message: `Book - ${id} not found!`
+//         });
+//     }
+//     res.status(200).json({
+//         success:true,
+//         data:book
+//     });
+// });
+
+
+
+b_router.get("/:id",getSingleBookById);
 
 /**
  * Route: '/books'
@@ -82,57 +99,47 @@ b_router.get("/:id",(req, res)=>{
  * Parameters: None
  */
 
-b_router.post("/",(req, res)=>{
+// b_router.post("/",(req, res)=>{
 
-// {
-//         "id": "30",
-//         "title": "The Last Sunrise",
-//         "author": "Zara Fernandes",
-//         "genre": "Drama",
-//         "year": 2019,
-//         "price": 310,
-//         "inStock": true,
-//         "rating": 4.2,
-//         "publisher": "SilverLine Publications"
-//     }    
+// const {id, title, author, genre, year, price, inStock, rating, publisher} = req.body;
 
-const {id, title, author, genre, year, price, inStock, rating, publisher} = req.body;
+// if(!id || !title || !author || !genre || !year || !price || !inStock || !rating || !publisher){
+//     return res.status(404).json({
+//         success: false,
+//         message: "Please provide details for all the fields."
+//     });
+// }
 
-if(!id || !title || !author || !genre || !year || !price || !inStock || !rating || !publisher){
-    return res.status(404).json({
-        success: false,
-        message: "Please provide details for all the fields."
-    });
-}
+// const book = books.find((each)=>each.id===id);
 
-const book = books.find((each)=>each.id===id);
+// if(book){
+//     return res.status(409).json({
+//         success: false,
+//         message: `Book - ${id} already exists!`
+//     });
+// }
 
-if(book){
-    return res.status(409).json({
-        success: false,
-        message: `Book - ${id} already exists!`
-    });
-}
+// books.push({
+//     id,
+//     title,
+//     author,
+//     genre,
+//     year,
+//     price,
+//     inStock,
+//     rating,
+//     publisher
+// })
 
-books.push({
-    id,
-    title,
-    author,
-    genre,
-    year,
-    price,
-    inStock,
-    rating,
-    publisher
-})
+// res.status(201).json({
+//     success:true,
+//     message: `Book - ${id} added succesfully`,
+//     bookList: books
+// })
 
-res.status(201).json({
-    success:true,
-    message: `Book - ${id} added succesfully`,
-    bookList: books
-})
+// });
 
-});
+b_router.post("/", createBook);
 
 /**
  * Route: '/books/:id'
@@ -142,42 +149,44 @@ res.status(201).json({
  * Parameters: id
  */
 
-b_router.put("/:id", (req,res)=>{
-    const {id}=req.params;
-    const book=books.find((each)=>each.id===id);
+// b_router.put("/:id", (req,res)=>{
+//     const {id}=req.params;
+//     const book=books.find((each)=>each.id===id);
 
-    const {data}=req.body;
+//     const {data}=req.body;
 
-    // if(!data || Object.keys(data).length===0){
-    //     return res.status(404).json({
-    //         success:false,
-    //         message: "Please provide data to be updated!"
-    //     });
-    // }
+//     // if(!data || Object.keys(data).length===0){
+//     //     return res.status(404).json({
+//     //         success:false,
+//     //         message: "Please provide data to be updated!"
+//     //     });
+//     // }
 
-    if(!book){
-        return res.status(404).json({
-            success: false,
-            message:`Book - ${id} does not exists!`
-        });
-    }
+//     if(!book){
+//         return res.status(404).json({
+//             success: false,
+//             message:`Book - ${id} does not exists!`
+//         });
+//     }
 
-    const UpdatedBook = books.map((item)=>{
-        if(item.id===id){
-            return {
-                ...item,
-                ...data
-            };
-        }
-            return item;
-    })
+//     const UpdatedBook = books.map((item)=>{
+//         if(item.id===id){
+//             return {
+//                 ...item,
+//                 ...data
+//             };
+//         }
+//             return item;
+//     })
 
-    res.status(200).json({
-        success: true,
-        message:`Book ${id} updated succesfully!`,
-        data: UpdatedBook
-    });
-});
+//     res.status(200).json({
+//         success: true,
+//         message:`Book ${id} updated succesfully!`,
+//         data: UpdatedBook
+//     });
+// });
+
+b_router.put("/:id", updateBook);
 
 /**
  * Route: '/books/:id'
@@ -187,26 +196,26 @@ b_router.put("/:id", (req,res)=>{
  * Parameters: id
  */
 
-b_router.delete("/:id",(req,res)=>{
-    const {id}=req.params;
-    const book=books.find((each)=>each.id===id);
+// b_router.delete("/:id",(req,res)=>{
+//     const {id}=req.params;
+//     const book=books.find((each)=>each.id===id);
 
-    if(!book){
-        return res.status(404).json({
-            success: false,
-            message: `Book - ${id} not found!`
-        });
-    }
-    const updatedBooks = books.filter((each)=>each.id !== id);
+//     if(!book){
+//         return res.status(404).json({
+//             success: false,
+//             message: `Book - ${id} not found!`
+//         });
+//     }
+//     const updatedBooks = books.filter((each)=>each.id !== id);
 
-    res.status(202).json({
-        success: true,
-        message: `Book - ${id} removed successfully!`,
-        data: updatedBooks
-    });
-});
+//     res.status(202).json({
+//         success: true,
+//         message: `Book - ${id} removed successfully!`,
+//         data: updatedBooks
+//     });
+// });
 
-
+b_router.delete("/:id",deleteBook);
 
 
 module.exports=b_router;
